@@ -1,0 +1,12 @@
+CREATE DATABASE ouvidoria;
+
+USE ouvidoria;
+
+CREATE TABLE manifestacao (
+    codigo INT AUTO_INCREMENT PRIMARY KEY,
+    tipo VARCHAR(20) NOT NULL,
+    titulo VARCHAR(100) NOT NULL,
+    descricao TEXT NOT NULL,
+    nome VARCHAR(50) NOT NULL
+);
+);
